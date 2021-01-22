@@ -1,35 +1,44 @@
 package edu.epam.port.entity;
 
-public class Ship {
-    private int idShip;
-    private int container;
-    private Size size;
+import edu.epam.port.entity.impl.ConnectState;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-    public Ship(int idShip, Size size) {
-        this.idShip = idShip;
-        this.size = size;
-    }
+public class Ship extends Thread {
+    private static final Logger logger = LogManager.getLogger(Ship.class);
+
+    private static final int MAX_CAPACITY = 50;
+    private int container;
+    private ShipState state;
 
     public void addContainer(int container) {
         this.container += container;
     }
 
     public boolean countCheck() {
-        if (container >= size.getValue()) {
+        if (container >= MAX_CAPACITY) {
             return false;
         }
         return true;
-    }
-
-    public int getIdShip() {
-        return idShip;
     }
 
     public int getContainer() {
         return container;
     }
 
-    public Size getSize() {
-        return size;
+    public void setContainer(int container) {
+        this.container = container;
+    }
+
+    public void setState(ShipState state) {
+        this.state = state;
+    }
+
+    @Override
+    public void run() {
+        this.setState(ConnectState.getInstance());
+        state.connectionShip(this);
+        state.loadShip(this);
+        state.disconnectShip(this);
     }
 }
