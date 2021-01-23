@@ -1,0 +1,175 @@
+20:38:17.917 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:38:18.431 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:38:18.934 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:38:19.436 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:38:19.937 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:38:20.443 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:38:20.949 [Thread-5] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:38:20.949 [Thread-5] DEBUG edu.epam.port.entity.Pier - Корабль 6 полностью загружен 
+20:38:20.950 [Thread-5] DEBUG edu.epam.port.entity.ShipPort - Корабль 5 покинул в порт
+20:38:21.955 [Thread-6] DEBUG edu.epam.port.entity.ShipPort - Корабль 7 вынимают из порта. Объем - MIDDLE
+20:38:21.955 [Thread-6] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 7
+20:38:22.461 [Thread-6] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:38:22.965 [Thread-6] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:38:23.471 [Thread-6] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:38:23.975 [Thread-6] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:38:24.476 [Thread-6] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:38:24.476 [Thread-6] DEBUG edu.epam.port.entity.Pier - Корабль 7 полностью загружен 
+20:38:24.477 [Thread-6] DEBUG edu.epam.port.entity.ShipPort - Корабль 6 покинул в порт
+20:38:25.479 [Thread-7] DEBUG edu.epam.port.entity.ShipPort - Корабль 8 вынимают из порта. Объем - SMALL
+20:38:25.480 [Thread-7] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 8
+20:38:25.985 [Thread-7] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:38:25.985 [Thread-7] DEBUG edu.epam.port.entity.Pier - Корабль 8 полностью загружен 
+20:38:25.986 [Thread-7] DEBUG edu.epam.port.entity.ShipPort - Корабль 7 покинул в порт
+20:38:26.987 [Thread-8] DEBUG edu.epam.port.entity.ShipPort - Корабль 9 вынимают из порта. Объем - LARGE
+20:38:26.988 [Thread-8] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 9
+20:38:27.493 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:38:27.994 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:38:28.500 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:38:29.005 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:38:29.507 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:38:30.011 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:38:30.515 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:38:31.020 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:38:31.526 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:38:32.032 [Thread-8] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:38:32.032 [Thread-8] DEBUG edu.epam.port.entity.Pier - Корабль 9 полностью загружен 
+20:38:32.032 [Thread-8] DEBUG edu.epam.port.entity.ShipPort - Корабль 8 покинул в порт
+20:38:33.038 [Thread-9] ERROR edu.epam.port.entity.Pier - java.lang.NullPointerException
+20:38:33.038 [Thread-9] DEBUG edu.epam.port.entity.ShipPort - Корабль 9 покинул в порт
+20:39:37.590 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 прибыл в порт. Объем - SMALL
+20:39:39.572 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 прибыл в порт. Объем - LARGE
+20:39:40.575 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 вынимают из порта. Объем - SMALL
+20:39:40.576 [Thread-0] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 0
+20:39:41.084 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:39:41.085 [Thread-0] DEBUG edu.epam.port.entity.Pier - Корабль 0 полностью загружен 
+20:39:41.087 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 покинул в порт
+20:39:41.577 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 прибыл в порт. Объем - LARGE
+20:39:42.583 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 вынимают из порта. Объем - LARGE
+20:39:42.584 [Thread-1] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 1
+20:39:43.085 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:39:43.580 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 прибыл в порт. Объем - LARGE
+20:39:43.587 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:39:44.091 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:39:44.597 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:39:45.100 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:39:45.585 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 прибыл в порт. Объем - MIDDLE
+20:39:45.604 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:39:46.110 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:39:46.616 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:39:47.121 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:39:47.122 [Thread-1] DEBUG edu.epam.port.entity.Pier - На складе нет товара
+20:39:50.129 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 вынимают из порта. Объем - LARGE
+20:39:50.129 [Thread-1] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 2
+20:39:50.635 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:39:51.140 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:39:51.641 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:39:52.145 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:39:52.650 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:39:53.154 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:39:53.656 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:39:54.157 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:39:54.662 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:39:55.163 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:39:55.164 [Thread-1] DEBUG edu.epam.port.entity.Pier - Корабль 2 полностью загружен 
+20:39:55.667 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:39:55.667 [Thread-1] DEBUG edu.epam.port.entity.Pier - Корабль 1 полностью загружен 
+20:39:55.667 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 покинул в порт
+20:39:56.673 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 вынимают из порта. Объем - LARGE
+20:39:56.673 [Thread-2] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 3
+20:39:57.174 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:39:57.678 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:39:58.182 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:39:58.686 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:39:59.191 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:39:59.697 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:40:00.200 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:40:00.704 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:40:01.209 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:40:01.714 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:40:01.714 [Thread-2] DEBUG edu.epam.port.entity.Pier - Корабль 3 полностью загружен 
+20:40:01.715 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 покинул в порт
+20:40:02.719 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 вынимают из порта. Объем - MIDDLE
+20:40:02.719 [Thread-3] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 4
+20:40:03.222 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:40:03.728 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:40:04.233 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:40:04.739 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:40:05.241 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:40:05.242 [Thread-3] DEBUG edu.epam.port.entity.Pier - Корабль 4 полностью загружен 
+20:40:05.242 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 покинул в порт
+20:40:06.249 [Thread-4] ERROR edu.epam.port.entity.Pier - java.lang.NullPointerException
+20:40:06.249 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 покинул в порт
+20:42:03.533 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 прибыл в порт. Объем - MIDDLE
+20:42:05.521 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 прибыл в порт. Объем - SMALL
+20:42:06.528 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 вынимают из порта. Объем - MIDDLE
+20:42:06.529 [Thread-0] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 0
+20:42:07.039 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:42:07.527 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 прибыл в порт. Объем - MIDDLE
+20:42:07.545 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:42:08.051 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:42:08.557 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:42:09.058 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:42:09.060 [Thread-0] DEBUG edu.epam.port.entity.Pier - Корабль 0 полностью загружен 
+20:42:09.061 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 покинул в порт
+20:42:09.531 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 прибыл в порт. Объем - SMALL
+20:42:10.535 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 вынимают из порта. Объем - SMALL
+20:42:10.535 [Thread-1] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 1
+20:42:11.039 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:42:11.040 [Thread-1] DEBUG edu.epam.port.entity.Pier - Корабль 1 полностью загружен 
+20:42:11.040 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 покинул в порт
+20:42:11.537 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 прибыл в порт. Объем - SMALL
+20:42:12.540 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 вынимают из порта. Объем - MIDDLE
+20:42:12.540 [Thread-2] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 2
+20:42:13.045 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:42:13.550 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:42:14.052 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:42:14.557 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:42:15.061 [Thread-2] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:42:15.062 [Thread-2] DEBUG edu.epam.port.entity.Pier - Корабль 2 полностью загружен 
+20:42:15.062 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 покинул в порт
+20:42:16.067 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 вынимают из порта. Объем - SMALL
+20:42:16.068 [Thread-3] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 3
+20:42:16.570 [Thread-3] DEBUG edu.epam.port.entity.Pier - На складе нет товара, ждем новой поставки
+20:42:26.572 [Thread-3] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:42:26.573 [Thread-3] DEBUG edu.epam.port.entity.Pier - Корабль 3 полностью загружен 
+20:42:26.573 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 покинул в порт
+20:42:27.579 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 вынимают из порта. Объем - SMALL
+20:42:27.579 [Thread-4] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 4
+20:42:28.085 [Thread-4] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:42:28.086 [Thread-4] DEBUG edu.epam.port.entity.Pier - Корабль 4 полностью загружен 
+20:42:28.086 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 покинул в порт
+20:44:18.108 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 прибыл в порт. Объем - LARGE
+20:44:20.089 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 прибыл в порт. Объем - LARGE
+20:44:21.095 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 вынимают из порта. Объем - LARGE
+20:44:21.096 [Thread-0] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 0
+20:44:21.607 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:44:22.094 [Thread-2] DEBUG edu.epam.port.entity.ShipPort - Корабль 2 прибыл в порт. Объем - MIDDLE
+20:44:22.113 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:44:22.613 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:44:23.115 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:44:23.620 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:44:24.096 [Thread-3] DEBUG edu.epam.port.entity.ShipPort - Корабль 3 прибыл в порт. Объем - MIDDLE
+20:44:24.121 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:44:24.625 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:44:25.130 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:44:25.633 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:44:26.102 [Thread-4] DEBUG edu.epam.port.entity.ShipPort - Корабль 4 прибыл в порт. Объем - LARGE
+20:44:26.134 [Thread-0] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:44:26.136 [Thread-0] DEBUG edu.epam.port.entity.Pier - Корабль 0 полностью загружен 
+20:44:27.108 [Thread-0] DEBUG edu.epam.port.entity.ShipPort - Корабль 0 покинул в порт
+20:44:27.138 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 вынимают из порта. Объем - LARGE
+20:44:27.138 [Thread-1] DEBUG edu.epam.port.entity.Pier - Загрузка корабля 1
+20:44:27.639 [Thread-1] DEBUG edu.epam.port.entity.Pier - На складе нет товара, ждем новой поставки
+20:44:37.642 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 10 ящиков на корабль
+20:44:38.145 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 20 ящиков на корабль
+20:44:38.647 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 30 ящиков на корабль
+20:44:39.152 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 40 ящиков на корабль
+20:44:39.658 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 50 ящиков на корабль
+20:44:40.162 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 60 ящиков на корабль
+20:44:40.664 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 70 ящиков на корабль
+20:44:41.169 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 80 ящиков на корабль
+20:44:41.673 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 90 ящиков на корабль
+20:44:42.176 [Thread-1] DEBUG edu.epam.port.entity.Pier - Добавленно 100 ящиков на корабль
+20:44:42.176 [Thread-1] DEBUG edu.epam.port.entity.Pier - Корабль 1 полностью загружен 
+20:44:42.177 [Thread-1] DEBUG edu.epam.port.entity.ShipPort - Корабль 1 покинул в порт
