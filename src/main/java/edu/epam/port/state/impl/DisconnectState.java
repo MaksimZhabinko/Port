@@ -1,8 +1,8 @@
-package edu.epam.port.entity.impl;
+package edu.epam.port.state.impl;
 
 import edu.epam.port.entity.Ship;
 import edu.epam.port.entity.ShipPort;
-import edu.epam.port.entity.ShipState;
+import edu.epam.port.state.ShipState;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -22,11 +22,6 @@ public class DisconnectState implements ShipState {
 
     @Override
     public void connectionShip(Ship ship) {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public void unloadShip(Ship ship) {
         throw new UnsupportedOperationException();
     }
 

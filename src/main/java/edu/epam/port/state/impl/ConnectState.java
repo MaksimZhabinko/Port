@@ -1,8 +1,8 @@
-package edu.epam.port.entity.impl;
+package edu.epam.port.state.impl;
 
 import edu.epam.port.entity.Ship;
 import edu.epam.port.entity.ShipPort;
-import edu.epam.port.entity.ShipState;
+import edu.epam.port.state.ShipState;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,11 +24,6 @@ public class ConnectState implements ShipState {
     public void connectionShip(Ship ship) {
         port.add(ship);
         ship.setState(LoadState.getInstance());
-    }
-
-    @Override
-    public void unloadShip(Ship ship) {
-        throw new UnsupportedOperationException();
     }
 
     @Override

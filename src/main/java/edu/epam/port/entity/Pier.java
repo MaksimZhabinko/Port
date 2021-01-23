@@ -1,15 +1,18 @@
 package edu.epam.port.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Pier {
+    private static final Logger logger = LogManager.getLogger(Pier.class);
+
     private static final Pier INSTANCE = new Pier();
     private ShipPort port = ShipPort.getInstance();
     private Lock lock = new ReentrantLock();
-    private Condition condition = lock.newCondition();
 
     private Pier() {
     }
@@ -23,16 +26,17 @@ public class Pier {
             lock.lock();
             TimeUnit.SECONDS.sleep(1);
             Ship ship = port.get();
-            Thread.currentThread().setName("Загрузка ");
+            logger.debug("Загрузка корабля " + ship.getShipId());
             if (ship != null) {
                 while (ship.countCheck()) {
                     TimeUnit.MILLISECONDS.sleep(500);
                     ship.addContainer(10);
-                    System.out.println(ship.getContainer() + " Загруженный корабль. ");
+                    logger.debug("Добавленно " + ship.getContainer() + " ящиков на корабль");
                 }
             }
+            logger.debug("Корабль полностью загружен ");
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e);
         } finally {
             lock.unlock();
         }

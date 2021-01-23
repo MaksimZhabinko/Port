@@ -1,5 +1,8 @@
 package edu.epam.port.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -7,6 +10,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ShipPort {
+    private static final Logger logger = LogManager.getLogger(ShipPort.class);
 
     private static final ShipPort INSTANCE = new ShipPort();
     private Lock lock = new ReentrantLock();
@@ -25,13 +29,12 @@ public class ShipPort {
         try {
             lock.lock();
             shipsInPort.add(ship);
-            System.out.println("Корабль прибыл в порт:");
-            try {
-                TimeUnit.SECONDS.sleep(1);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            String info = "Корабль " + ship.getShipId() + " прибыл в порт. Объем - " + ship.getVolume();
+            logger.debug(info);
+            TimeUnit.SECONDS.sleep(1);
             isCorrect = true;
+        } catch (InterruptedException e) {
+            logger.error(e);
         } finally {
             lock.unlock();
         }
@@ -42,7 +45,8 @@ public class ShipPort {
         try {
             lock.lock();
             for (Ship ship : shipsInPort) {
-                System.out.println(shipsInPort.size() + "- Корабль вынимают из порта:");
+                String info = "Корабль " + ship.getShipId() + " вынимают из порта. Объем - " + ship.getVolume();
+                logger.debug(info);
                 shipsInPort.remove(ship);
                 return ship;
             }
@@ -57,7 +61,8 @@ public class ShipPort {
         try {
             lock.lock();
             shipsInPort.remove(ship);
-            System.out.println("Корабль покинул в порт:");
+            String info = "Корабль " + ship.getShipId() + " покинул в порт";
+            logger.debug(info);
             isCorrect = true;
         } finally {
             lock.unlock();
