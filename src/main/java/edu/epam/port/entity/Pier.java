@@ -34,7 +34,7 @@ public class Pier {
                     logger.debug("Добавленно " + ship.getContainer() + " ящиков на корабль");
                 }
             }
-            logger.debug("Корабль полностью загружен ");
+            logger.debug("Корабль " + ship.getShipId() + " полностью загружен ");
         } catch (Exception e) {
             logger.error(e);
         } finally {
